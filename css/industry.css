@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+}
+.container2 {
+  max-width:690px;
+  min-height: 500px;
+  position: relative;
+  padding:8px;
+  grid-gap: 8px;
+  font-family: serif;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 330px);
+  grid-gap: 10px;
+  color: white;
+  text-align: center;
+
+}
+
+.card1 {
+
+  background-color: #9F1C11;
+  height:500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  margin: 8px;
+  border-radius: 20px;
+}
+.card2 {
+
+  background-color: #248976;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  margin: 8px;
+  border-radius: 20px;
+
+}
+.card2 img {
+  margin-top: -10px
+}
+
+.card1:hover {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.7);
+}
+.card2:hover {
+  box-shadow:0 6px 10px 0 rgba(0,0,0,.7);
+}
+
+.cardinfo {
+  width: 100%;
+  height: 100%;
+  margin-top:-30px
+}
+
+.h22{
+  text-align: center;
+  font-size: 2.1rem;
+  padding-top: 0rem;
+  padding-bottom: 1.50rem;
+}
+
+
+.detail2{
+  padding:1%;
+  font-size: 1.5rem;
+
+}
+
+.hr2 {
+  width: 70%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #aaa;
+  margin-left: 15%;
+}
+
+
+.card2 a {
+  color:#31139A;
+  text-decoration: none;
+  padding: 8px;
+}
+.card1 a {
+  color:#D4D3D3;
+  text-decoration: none;
+  padding: 8px;
+}
+.infoicon {
+  margin-left: 75%;
+  shadow: 0 2px 4px 0 rgba(0,0,0,0.7);
+
+}

@@ -1,0 +1,97 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: Black;
+    background-color: #F7F9F9;
+    height: 2000px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    background-color: white;
+    border-bottom: solid;
+    border-color: #B8BBBB;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.nav li:hover {
+    background-color:#111551;
+}
+.navbar-nav  li a:hover {
+    color: white !important;
+}
+.active {
+    background-color:#111551;
+}
+.active {
+    color: white !important;
+}
+.navbar-brand {
+  padding-top: 0;
+}
+.headh1 {
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .hidecdu {
+    display:none;
+  }
+  .homeimg {
+    height: 200px;
+  }
+}
+
+.part_1{
+  background-color: #13869A;
+  height: 200px;
+  margin-top: -21px;
+}
+.part_2{
+  background-color: #13969A;
+  height: 200px;
+  margin-top: -21px;
+}
+.part_3{
+  background-color: #13769A;
+  height: 200px;
+  margin-top: -21px;
+}
+.leftmargin{
+  margin-left: 10px;
+}
+
+.sym {
+  background-color: #3B5998;
+  color: white;
+  font-size: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+.sym:hover{
+  background-color: #3B5998;
+  color: white;
+}
+.sym3:hover{
+  background-color: #3B5998;
+  color: white;
+}
+
+.sym3{
+  background: #125688;
+  color: white;
+  font-size: 30px;
+  width: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.foot{
+  text-align: center;
+  background-color:#111551;
+  color: white;
+  padding: 10px;
+}
