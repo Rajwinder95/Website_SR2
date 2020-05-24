@@ -39,7 +39,7 @@ body {
 .details{
 	margin-left:80px;
 	padding:20px;
-	
+
 }
 @media only screen and (max-width: 600px) {
   .hidecdu {
@@ -51,6 +51,7 @@ body {
   .details{
 	margin-left:20px;
 	padding:20px;
+}
 }
 
 .part_1{
