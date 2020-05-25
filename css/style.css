@@ -41,79 +41,6 @@ body {
 	padding:20px;
 
 }
-@media only screen and (max-width: 600px) {
-  .hidecdu {
-    display:none;
-  }
-  .homeimg {
-    height: 200px;
-  }
-  .details{
-	margin-left:20px;
-	padding:20px;
-}
-.message{
-  width:350px;
-  height: auto;
-  padding:10px;
-  background-color: #226868;
-  color: white;
-  margin: auto;
-}
-.messform{
-  width: 350px;
-  height:auto;
-  margin:0 auto;
-  border: 1px solid #ccc;
-  color:white;
-  background-color: #226868;
-  display: none;
-}
-}
-
-.part_1{
-  background-color: #13869A;
-  height: 200px;
-  margin-top: -21px;
-}
-.part_2{
-  background-color: #13969A;
-  height: 200px;
-  margin-top: -21px;
-}
-.part_3{
-  background-color: #13769A;
-  height: 200px;
-  margin-top: -21px;
-}
-.leftmargin{
-  margin-left: 10px;
-}
-
-.sym {
-  background-color: #3B5998;
-  color: white;
-  font-size: 30px;
-  width: 30px;
-  border-radius: 10px;
-}
-.sym:hover{
-  background-color: #3B5998;
-  color: white;
-}
-.sym3:hover{
-  background-color: #3B5998;
-  color: white;
-}
-
-.sym3{
-  background: #125688;
-  color: white;
-  font-size: 30px;
-  width: 40px;
-  border-radius: 10px;
-  text-align: center;
-}
 .message{
   width:550px;
   height: auto;
@@ -141,11 +68,10 @@ body {
   font-size: 15px;
   display: none;
 }
-/*form style*/
 .form{
   width:467.5px;
   height:auto;
-  margin: 0 7.5% 2% 7.5%;
+  margin: auto;
 
 }
 .form h1{
@@ -208,6 +134,114 @@ body {
   width:114%;
   font-size: 15px;
 }
+/*form style*/
+
+@media only screen and (max-width: 600px) {
+  .hidecdu {
+    display:none;
+  }
+  .homeimg {
+    height: 200px;
+  }
+  .details{
+	margin :auto;
+	padding:20px;
+}
+.message{
+  width:90%;
+  height: auto;
+  padding:10px;
+  background-color: #226868;
+  color: white;
+  margin: auto;
+}
+.messform{
+  width: 90%;
+  height:auto;
+  margin:0 auto;
+  border: 1px solid #ccc;
+  color:white;
+  background-color: #226868;
+  display: none;
+}
+.form input{
+  width:80%;
+
+}
+/*focus on the input when it is active*/
+
+.form label{
+  font-size: 18px;
+}
+
+
+/*style first name and last name to put side by side*/
+.form .first_name{
+  width:35%;
+  float: left;
+  color:black;
+}
+.first_name input{
+  width:110%;
+  font-size: 15px;
+}
+.form .last_name{
+  width:35%;
+  float:left;
+  margin-left: 6%;
+  color:black;
+}
+.last_name input{
+  width:110%;
+  font-size: 15px;
+}
+}
+
+
+.part_1{
+  background-color: #13869A;
+  height: 200px;
+  margin-top: -21px;
+}
+.part_2{
+  background-color: #13969A;
+  height: 200px;
+  margin-top: -21px;
+}
+.part_3{
+  background-color: #13769A;
+  height: 200px;
+  margin-top: -21px;
+}
+.leftmargin{
+  margin-left: 10px;
+}
+
+.sym {
+  background-color: #3B5998;
+  color: white;
+  font-size: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+.sym:hover{
+  background-color: #3B5998;
+  color: white;
+}
+.sym3:hover{
+  background-color: #3B5998;
+  color: white;
+}
+
+.sym3{
+  background: #125688;
+  color: white;
+  font-size: 30px;
+  width: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 
 
 .foot{
