@@ -31,6 +31,8 @@ body {
 .navbar-brand {
   padding-top: 0;
 }
+
+
 .headh1 {
   color: black;
   text-align: center;
@@ -41,6 +43,160 @@ body {
 	padding:20px;
 
 }
+.message{
+  width:550px;
+  height: auto;
+  padding:10px;
+  background-color: #226868;
+  color: white;
+  margin: auto;
+}
+.message a{
+  color:#111551;
+}
+.mbtn{
+  background-color: #EEAC14;
+  border-radius: 5px;
+  border: #EEAC14;
+}
+/*form background style*/
+.messform{
+  width: 550px;
+  height:auto;
+  margin:0 auto;
+  border: 1px solid #ccc;
+  color:white;
+  background-color: #226868;
+  font-size: 15px;
+  display: none;
+}
+.form{
+  width:467.5px;
+  height:auto;
+  margin: auto;
+
+}
+.form h1{
+  text-align: center;
+  font-size: 48px;
+}
+/*div in the form style*/
+.form div{
+  width:374px;
+  height:80px;
+  padding:1%;
+}
+/*form input style*/
+.form input{
+  width:110%;
+  height: 30px;
+  font-size: 15px;
+  border-radius:5px;
+  border-color: white;
+  color:black;
+  font-weight: bold;
+}
+/*focus on the input when it is active*/
+.form input:focus{
+  border:3px solid #EEAC14;
+}
+.form label{
+  font-size: 25px;
+  color: white;
+}
+.form input[type=submit]{
+  width: 30%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 3px;
+  background-color: #EEAC14;
+  border: #EEAC14;
+  color: #050300;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*style first name and last name to put side by side*/
+.form .first_name{
+  width:45%;
+  float: left;
+  color:black;
+}
+.first_name input{
+  width:114%;
+  font-size: 15px;
+}
+.form .last_name{
+  width:45%;
+  float:left;
+  margin-left: 6%;
+  color:black;
+}
+.last_name input{
+  width:114%;
+  font-size: 15px;
+}
+
+/* footer style*/
+.footer{
+  background:#111551;
+  color: white;
+  height: 600px;
+  width: 100%;
+  top: 80px;
+  bottom: 0px;
+
+
+
+}
+
+.main_content{
+  display: flex;
+
+}
+
+.main_content .box{
+  flex-basis: 20%;
+  padding: 5px 20px;
+
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .content{
+  margin: 20px 0 0 00;
+
+}
+
+.left .content .social{
+  margin: 20px 0 0 0 ;
+
+}
+.left .content .social a{
+  padding:  0 2px;
+
+}
+
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #B3B6B7;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3;
+
+}
+
+
+
+
+
+/*form style*/
+
 @media only screen and (max-width: 600px) {
   .hidecdu {
     display:none;
@@ -49,10 +205,59 @@ body {
     height: 200px;
   }
   .details{
-	margin-left:20px;
+	margin :auto;
 	padding:20px;
 }
+.message{
+  width:90%;
+  height: auto;
+  padding:10px;
+  background-color: #226868;
+  color: white;
+  margin: auto;
 }
+.messform{
+  width: 90%;
+  height:auto;
+  margin:0 auto;
+  border: 1px solid #ccc;
+  color:white;
+  background-color: #226868;
+  display: none;
+}
+.form input{
+  width:80%;
+
+}
+/*focus on the input when it is active*/
+
+.form label{
+  font-size: 18px;
+}
+
+
+/*style first name and last name to put side by side*/
+.form .first_name{
+  width:35%;
+  float: left;
+  color:black;
+}
+.first_name input{
+  width:110%;
+  font-size: 15px;
+}
+.form .last_name{
+  width:35%;
+  float:left;
+  margin-left: 6%;
+  color:black;
+}
+.last_name input{
+  width:110%;
+  font-size: 15px;
+}
+}
+
 
 .part_1{
   background-color: #13869A;
@@ -99,10 +304,5 @@ body {
 }
 
 
-}
-.foot{
-  text-align: center;
-  background-color:#111551;
-  color: white;
-  padding: 10px;
+<<<<<<< HEAD
 }
