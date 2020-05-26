@@ -10,119 +10,269 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-default secondary navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/cdu.png" class="img-responsive" alt="codefairIT" width="" height=""></a>
-      <a class="navbar-brand hidecdu" href="index.html"><img src="images/itcode.png" class="img-responsive" alt="codefairIT" width="" height=""></a>
+  <!-- Navbar -->
+  <div class="container-fluid">
+    <div class="row">     
+        <nav class="navbar navbar-default secondary navbar-fixed-top">         
+            <div class="navbar-header mymenu">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="images/cdu.png" class="img-responsive" alt="codefairIT" width="" height=""></a>
+              <a class="navbar-brand hidecdu" href="index.html"><img src="images/itcode.png" class="img-responsive" alt="codefairIT" width="" height=""></a>
+            </div>
+            <div class=" main_nav collapse navbar-collapse mymenu1" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="btn" href="html/competitions.html">COMPETITIONS</a></li>
+                <li><a class="btn" href="html/industry.html">FOR INDUSTRY</a></li>
+                <li><a class="btn" href="html/about.html">ABOUT</a></li>
+              </ul>
+            </div>
+            <div class="main_nav social" id="myNavbar">
+              <div class="nav navbar-nav navbar-right leftmargin">
+                <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook sym"></a>
+                <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram sym3"></a>
+              </div>
+            </div>         
+        </nav>
+      </div>
     </div>
-    <div class=" main_nav collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="btn" href="html/competitions.html">COMPETITIONS</a></li>
-        <li><a class="btn" href="html/industry.html">FOR INDUSTRY</a></li>
-        <li><a class="btn" href="html/about.html">ABOUT</a></li>
-      </ul>
+ <!--  end navbar -->
+
+ <!-- hearder img -->
+ <div class="container-fluid competation">
+   <div class="row">
+     <div style="margin-top: 50px" >
+      <img class="img-responsive homeimg" src="images/homeimg.jpg" alt="2019 code fair"/>
     </div>
-    <div class="main_nav" id="myNavbar">
-      <div class="nav navbar-nav navbar-right leftmargin">
-        <a href="https://www.facebook.com/CDUENGIT/" class="fa fa-facebook sym"></a>
-        <a href="https://www.instagram.com/itcodefair_cdu/" class="fa fa-instagram sym3"></a>
+   </div>
+ </div>
+
+<!-- vedio section -->
+<div class="container-fluid">
+  <div class="row">
+    <div class=" article-img-strip__video-wrap vedio">
+       <article class="article-img-strip">      
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/n8TNXosTl-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>      
+      </article>
+    </div>
+    <div class="col-md-6 code-fair">
+      <div class="article-img-strip__text rte">
+        <h1>What is code fair?</h1>
+        <ul>
+          <li>Students share their IT skills</li>
+          <li>IT industry connects with students</li>
+          <li>Creative digital problem solving</li>
+        </ul>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+<!-- connect us -->
+<div class="container-fluid ">
+  <div class="row">
+    <div class="code-fair2">
+      <div class="article-img-strip__text rte">
+       <form class="contact1-form validate-form">
+        <span class="contact1-form-title" style="color: white">
+          Connect With Us
+        </span>
+        <p style="color: white;">Name</p>
+        <div class="wrap-input1 validate-input" data-validate = "Name is required">
+          <input class="input1" type="text" name="name" placeholder="john Amendo">
+          <span class="shadow-input1"></span>
+        </div>
+        <p style="color: white;">Phone</p>
+          <div class="wrap-input1 validate-input" data-validate = "Name is required">
+          <input class="input1" type="text" name="name" placeholder="john Amendo">
+          <span class="shadow-input1"></span>
+        </div>
+        <p style="color: white;">Email</p>
+        <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+          <input class="input1" type="text" name="email" placeholder="johnamendogm@gmail.com">
+          <span class="shadow-input1"></span>
+        </div>
+        <p style="color: white;">Subject</p>
+        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+          <input class="input1" type="text" name="subject" placeholder="Product Demo">
+          <span class="shadow-input1"></span>
+        </div>
+        <p style="color: white;">Your Message</p>
+        <div class="wrap-input1 validate-input" data-validate = "Message is required">
+          <textarea class="input1" name="message" placeholder="Your Message"></textarea>
+          <span class="shadow-input1"></span>
+        </div>
+        <div class="container-contact1-form-btn">
+          <button class="contact1-form-btn">
+            <span style="margin-top: 16px;">
+              Send 
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+      </form>
+      </div>
+    </div>
+    <div>
+      <div class="article-img-strip__video-wrap code-fair3">
+        <iframe width="100%" height="680" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.832646110021!2d130.83388635156354!3d-12.460863553093972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc091a0db2f5d91%3A0xe11c74243a0643b9!2sDoubleTree+by+Hilton+Hotel+Esplanade+Darwin!5e0!3m2!1sen!2sau!4v1545543361674"  frameborder="0" style="border:0" allowfullscreen=""></iframe>
       </div>
     </div>
   </div>
-</nav>
-<br><br><br>
-<img class="img-responsive homeimg" src="images/homeimg.jpg" alt="2019 code fair"/>
-<div class="part_1">
-<ul><h1>What is Code Fair?</h1>
-  <li>Students share their IT skills.</li>
-  <li>IT industry connects with students.</li>
-  <li>Creative digital problem solving.</li>
-</ul>
 </div>
-<div class="part_2">
-  <h1>Map</h1>
-</div>
-<div class="part_3">
-  <h1>Come to Code Fair 2019</h1>
-</div>
-<footer class="foot">&copy 2019 CDU IT CODE FAIR</footer>
-<script  src="java/java.js"></script>
-<footer>
-
-  <div class="footer">
-    <div class="main_content">
-      <div class="left box">
-        <h2>About Us</h2>
-        <div class="content">
-          <p>We are here to provide platform</br> to the students in IT Field</br> to start their career in IT compaanies.</p>
-          <div class="social">
-            <a href="#"><span class="fab fa-facebook-f"></span></a>
-            <a href="#"><span class="fab fa-twitter"></span></a>
-            <a href="#"><span class="fab fa-instagram"></span></a>
-            <a href="#"><span class="fab fa-youtube"></span></a>
 
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="countdown-timer__wrap">
+    <h1>2019 IT Code Fair starts in</h1>
+    <h4 id="countdown-timer" class="countdown-timer">-193d -8h -32m -46s </h4>
+    <div class="countdown-timer__btn-wrap">
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- sponeser -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="row broze">
+    <h1><center>Sponsers</center></h1>
+  </div>
+  </div>
+</div>
+
+
+<div class="container-fluid"  id="content-desktop">
+  <div class="row">
+     <div class="main">
+      <nav class="Sponsersmenu">
+        <div class="Sponsers-heading">
+         <h3>SPECIAL THANKS TO OUR KIND SPONSORS</h3>
+       </div>
+     </nav>
+     <div class="information">
+      <img src="images/sponsors-removebg-preview.png (550×454).png (550×454).png (550×454)"  width="500" class="mobile">
+      <div id="circle">
+        <div class="feature one">
+          <img src="images/InterSystems.092469a076b19e74c7ffc42387ee956a1.png">
+          <div>
+            <h2>Platinum Sponsers</h2>
+            <img src="images/ntg.092469a076b19e74c7ffc42387ee956a1.png" style="margin-top: 10px;">
           </div>
-
+        </div>
+        <div class="feature two">
+          <img src="images/IBM.e90e1b826e4bfacdf9dc149112b028021.jpg" height="50px" >
+          <div>
+            <h2>Gold Sponsers</h2>
+            <img src="images/radical.092469a076b19e74c7ffc42387ee956a1.png">
+            <img src="images/jackadder.092469a076b19e74c7ffc42387ee956a1.png"><br>
+            <img src="images/AISA.e90e1b826e4bfacdf9dc149112b028021.jpg">
+            <img src="images/Wuna.092469a076b19e74c7ffc42387ee956a1.png">
+            <!-- <img src="images/DXC Technology.092469a076b19e74c7ffc42387ee956a1.png"> -->
+            <img src="images/Integral Digital.e90e1b826e4bfacdf9dc149112b028021.jpg">
+            <img src="images/1024px-hp_logo_2012.svg__2_2.e90e1b826e4bfacdf9dc149112b028021.jpg">
+          </div>
+        </div>
+        <div class="feature three">
+          <img src="images/kinetic.092469a076b19e74c7ffc42387ee956a1.png">
+          <div>
+            <h2>Silver Sponsers</h2>
+            <img src="images/NEC-Nutanix.092469a076b19e74c7ffc42387ee956a1.png">
+            <img src="images/servicenow.e90e1b826e4bfacdf9dc149112b028021.jpg" style="margin-top: 10px;">
+          </div>
+        </div>
+        <div class="feature four">
+          <img src="images/acs.092469a076b19e74c7ffc42387ee956a1.png">
+          <div>
+            <h2>Bronze Sponser</h2>
+         </div>
         </div>
       </div>
+      <div class="circle-overlay"></div>
+    </div>
+    <div class="controls">
+      <img src="images/arrow.png" id="upBtn">
+      <h3>MORE</h3>
+      <img src="images/arrow.png" id="downBtn">
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container-fluid" id="content-mobile">
+  <div class="row">
+    <div class="sponeser1" style="background-color: #3B5998;">
+      <h1 style="color: white">Platinum Sponsers</h1>
+      <img src="images/InterSystems.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="40%" style="float: left;margin-left: 15px;">
+      <img src="images/ntg.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="40%" style="float: left; margin-left: 15px;">
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="content-mobile">
+  <div class="row">
+    <div class="sponeser1" style="background-color: #3B5998;">
+    <h1 style="color: white">Gold Sponsers</h1>
+      <img src="images/IBM.e90e1b826e4bfacdf9dc149112b028021.jpg" height="50px" height="200" width="200" style="float: left; margin-left: 15px">
+      <img src="images/radical.092469a076b19e74c7ffc42387ee956a1.png" height="50px" height="200" style="float: left;">
+            <img src="images/jackadder.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="200"
+            height="50px" height="200" width="200" style="float: left; margin-left: 10px">
+            <!-- <img src="images/AISA.e90e1b826e4bfacdf9dc149112b028021.jpg" height="200" width="200"
+            style="float: left; margin-left: 15px"> -->
+            <!-- <img src="images/Wuna.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="200">
+            
+            <img src="images/Integral Digital.e90e1b826e4bfacdf9dc149112b028021.jpg" height="200" width="200">
+            <img src="images/1024px-hp_logo_2012.svg__2_2.e90e1b826e4bfacdf9dc149112b028021.jpg" height="200" width="200"> -->
+  </div>
+</div>
+</div>
+<div class="container-fluid" id="content-mobile">
+  <div class="row">
+    <div class="sponeser1" style="background-color: #3B5998;">
+      <h1 style="color: white">Silver Sponsers</h1>
+      <img src="images/kinetic.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="150" style="float: left; margin-left: 10px">
+      <img src="images/NEC-Nutanix.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="150"  style="float: left; margin-left: 10px">
+            <img src="images/servicenow.e90e1b826e4bfacdf9dc149112b028021.jpg" style="margin-top: 10px;" height="200" width="200">
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="content-mobile">
+  <div class="row">
+     <div class="sponeser1" style="background-color: #3B5998;">
+       <img src="images/acs.092469a076b19e74c7ffc42387ee956a1.png" height="200" width="200" style="margin-top: 10px; margin-left: 10px" >
+     </div>
+  </div>
+</div>
 
-        <div class="center box">
-          <h2>Address</h2>
-          <div class="content">
-            <div class="place">
-              <span class="fas fa-map-marker-alt"></span>
-              <span class="text">79 Mitchell Street ,Darwin </span>
+<script>
+  var circle = document.getElementById("circle");
+  var upBtn = document.getElementById("upBtn");
+  var downBtn = document.getElementById("downBtn");
 
-            </div>
-            <div class="email">
-              <span class="fas fa-envelope"></span>
-              <span class="text">icodefair@cdu.edu.au</span>
+  var rotatevalue = circle.style.transform;
+  var rotateSum;
 
-            </div>
-            <div class="phone">
-              <span class="fas fa-phone-alt"></span>
-              <span class="text">(08) 8946 6666</span>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="right box">
-          <h2>Contact Us</h2>
-          <div class="content">
-            <form action="#">
-              <div class="email">
-                <div class="text">Email*</div>
-                <input type="email" required>
-
-
-              </div>
-              <div class="msg">
-                <div class="text">Message*  </div>
-                <textarea rows="2"  cols="25" required></textarea>
-              </div>
-              <div class="btn">
-                <button type="submit"> Send</button>
-
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      </footer>
-
+  upBtn.onclick = function()
+  {
+   rotateSum = rotatevalue + "rotate(-90deg)"; 
+   circle.style.transform = rotateSum;
+   rotatevalue = rotateSum;
+ }
+ downBtn.onclick = function()
+ {
+   rotateSum = rotatevalue + "rotate(90deg)"; 
+   circle.style.transform = rotateSum;
+   rotatevalue = rotateSum;
+ }
+</script>
+<footer class="foot"><center>&copy 2019 CDU IT CODE FAIR</center></footer>
 </body>
 </html>
